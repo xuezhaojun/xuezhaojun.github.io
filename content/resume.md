@@ -20,7 +20,7 @@ hideMeta: true
 
 - 从开源 OCM 到企业级 ACM 的关键衔接组件：提供 auto-import 自动接入和跨云多厂商集群集成能力（AWS/Azure/GCP/私有云），使 ACM 具备真实生产环境的可用性
 
-**OCM Core Maintainer** — [1400+ merged PRs, 270+ PR reviews](https://github.com/xuezhaojun)，覆盖 Registration、Workload、Placement、Add-on Framework、SDK 等核心模块。全栈 Go 开发，5 年 CRD + Controller / Operator 模式实践。
+**[OCM](https://github.com/open-cluster-management-io/ocm) Core Maintainer** — [58 merged PRs, 28 PR reviews](https://github.com/open-cluster-management-io/ocm/pulls?q=is%3Apr+author%3Axuezhaojun)，覆盖 Registration、Workload、Placement、Add-on Framework、SDK 等核心模块。全栈 Go 开发，5 年 CRD + Controller / Operator 模式实践。
 
 - Registration 模块 [Approver](https://github.com/open-cluster-management-io/ocm/blob/d770e1655234d34fd8df03ab5d297a34b5d42ce2/pkg/registration/OWNERS#L4)：负责集群注册与身份认证（CSR 签发、证书自动轮换、Lease 心跳监控），负责该模块的代码审批和质量把关
 - Switch Hub：实现集群在 Hub 间的在线迁移，支撑 Global Hub（Hub of Hub）横向扩展，突破单 Hub 集群数量上限
