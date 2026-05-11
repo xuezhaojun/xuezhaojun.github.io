@@ -35,7 +35,7 @@ hideMeta: true
 - 架构设计 + 前后端开发 + 文档网站 + 内外部推广，99% AI 辅助开发
 - 被 Distinguished Engineer 主动推动纳入 Red Hat 内部 AI 孵化项目之一
 
-**[Repo-as-Agent](https://xuezhaojun.github.io/posts/repo-as-agent/) 方法论** — 自主提出并落地，Git repo = Agent 本体（身份、技能、知识、工作流全部版本控制），28 个可复用 skill，覆盖 20+ 仓库
+**[Repo-as-Agent](https://xuezhaojun.github.io/posts/repo-as-agent/) 方法论** — 自主提出并落地，Git repo = Agent 本体（身份、技能、知识、工作流全部版本控制），28 个可复用 skill，覆盖 20+ 仓库（[示例仓库](https://github.com/xuezhaojun/server-foundation-agent)）
 
 **生产使用案例**：
 - Tekton image 变更自动处理：与 [konflux-build-catalog](https://github.com/stolostron/konflux-build-catalog) 集成（[workflow L247](https://github.com/stolostron/konflux-build-catalog/blob/8eb3352732e44d44ea9ec2923d50bd2731871a47/.github/workflows/update-tekton-task-bundles.yaml#L247)），检测 → 分析 → 修改 → PR → 合并全自动化
