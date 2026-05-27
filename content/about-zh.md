@@ -25,8 +25,8 @@ hideMeta: true
 
 ### 教育背景
 
-<p><img src="/images/hkust.png" alt="HKUST" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>香港科技大学</b> — 信息技术硕士</p>
-<p><img src="/images/sysu.gif" alt="SYSU" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>中山大学</b> — 软件工程学士</p>
+<p><img src="/images/hkust.png" alt="HKUST" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>香港科技大学</b> — 信息技术硕士（2020–2021）</p>
+<p><img src="/images/sysu.gif" alt="SYSU" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>中山大学</b> — 软件工程学士（2013–2017）</p>
 
 ### 专业认证
 

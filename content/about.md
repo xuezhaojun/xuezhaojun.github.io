@@ -23,8 +23,8 @@ ShowToc: false
 
 ### Education
 
-<p><img src="/images/hkust.png" alt="HKUST" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>HKUST</b> — Master of Information Technology</p>
-<p><img src="/images/sysu.gif" alt="SYSU" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>SYSU</b> — Bachelor of Software Engineering</p>
+<p><img src="/images/hkust.png" alt="HKUST" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>HKUST</b> — Master of Information Technology (2020–2021)</p>
+<p><img src="/images/sysu.gif" alt="SYSU" style="height:1.4em;vertical-align:middle;margin-right:0.4em;"><b>SYSU</b> — Bachelor of Software Engineering (2013–2017)</p>
 
 ### Certifications
 
