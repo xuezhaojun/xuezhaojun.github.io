@@ -1,7 +1,7 @@
 ---
 title: "Goodbye kubeopencode"
 date: 2026-07-07
-draft: true
+draft: false
 tags: ["Kubernetes", "AI Agent", "开源", "中文"]
 summary: "kubeopencode 到了 100 个 star，但我决定按下暂停。一个 for team、for enterprise 的产品，离个人开发者太远，定位也太尴尬。"
 ShowToc: true
