@@ -2,7 +2,7 @@
 title: "Repo-as-Agent: Building AI Agents with Git Repositories"
 date: 2026-04-15
 draft: false
-tags: ["AI Agent", "Claude Code", "DevOps", "Software Engineering", "English"]
+tags: ["ai-agent", "translated"]
 summary: "What if an AI Agent's identity, skills, and knowledge were all just files in a Git repository? This post introduces a pattern we've used in practice — no new frameworks, just directories, files, and Git to build production-grade AI Agents."
 ShowToc: true
 TocOpen: true

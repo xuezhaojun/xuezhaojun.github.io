@@ -48,6 +48,10 @@ Focused on cloud-native architecture and AI agent engineering.
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[taxonomies]
+  tag = 'tags'
+  collection = 'collections'
+
 [[menus.main]]
   name = "Blog"
   url = "/posts/"

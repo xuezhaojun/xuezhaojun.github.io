@@ -2,7 +2,7 @@
 title: "Repo-as-Agent：用 Git 仓库构建 AI Agent"
 date: 2026-04-15
 draft: false
-tags: ["AI Agent", "Claude Code", "DevOps", "软件工程", "中文"]
+tags: ["ai-agent"]
 summary: "如果一个 AI Agent 的身份、技能和知识全都是 Git 仓库里的文件呢？本文介绍一种我们实践过的模式——不引入任何新框架，只用目录、文件和 Git 来构建生产级 AI Agent。"
 ShowToc: true
 TocOpen: true

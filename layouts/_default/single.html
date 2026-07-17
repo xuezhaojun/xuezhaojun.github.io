@@ -5,9 +5,9 @@
     {{ partial "breadcrumbs.html" . }}
 
     {{/* Collection series badge */}}
-    {{- with .CurrentSection }}
+    {{- with index (.GetTerms "collections") 0 }}
     <div class="collection-badge">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
     </div>
     {{- end }}
 
@@ -50,9 +50,9 @@
   </div>
   {{- end }}
 
-  {{/* Collection chapter navigation: only for /collections/ pages */}}
-  {{- if eq .FirstSection.Type "collections" }}
-  {{- $pages := .CurrentSection.RegularPages.ByWeight }}
+  {{/* Collection chapter navigation: only for posts that belong to a collection */}}
+  {{- with index (.GetTerms "collections") 0 }}
+  {{- $pages := .Pages.ByWeight }}
   {{- $currentIndex := -1 }}
   {{- range $i, $p := $pages }}
     {{- if eq $p.Permalink $.Permalink }}

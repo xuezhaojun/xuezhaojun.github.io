@@ -2,7 +2,7 @@
 title: "依赖管理：共享 Agent Skill 的隐性壁垒"
 date: 2026-03-28
 draft: false
-tags: ["AI Agent", "Claude Code", "DevOps", "软件工程", "中文"]
+tags: ["ai-agent"]
 summary: "共享一个 Skill 文件只需几秒，但让它在别人的机器上跑起来才是真正的挑战。根因指向依赖管理，我们用容器和实时 Agent 来解决。"
 ShowToc: true
 TocOpen: true
