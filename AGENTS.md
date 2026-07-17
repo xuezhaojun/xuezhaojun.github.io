@@ -17,7 +17,7 @@ No Makefile, no package.json, no other build tooling.
 
 - **Posts** go in `content/posts/`. Every article lives here and shows up under Blog.
 - **Collections** are a Hugo taxonomy (`collections`), not a content section. A post joins a collection via frontmatter, e.g. `collections: ["Go Concurrency"]` plus `weight: 1` for chapter ordering. `/collections/` lists all collections; each collection page shows its posts as a book-style TOC, and post pages get a collection badge + prev/next chapter navigation. Use title-case collection names (the URL is auto-slugged).
-- **Tags** are a closed set — a post's `tags` must only contain values from this list, nothing else:
+- **Tags** are a closed set, always in lowercase — a post's `tags` must only contain values from this list, nothing else:
   - Languages: `golang`, `python`, `typescript`
   - Domains: `k8s`, `ai-infra`, `ai-agent`
   - Meta: `translated` (the post is translated by the author)
