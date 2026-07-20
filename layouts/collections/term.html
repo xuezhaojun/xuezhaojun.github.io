@@ -16,9 +16,37 @@
 </div>
 {{- end }}
 
-{{/* Single collection page (e.g. /collections/go-concurrency/): show chapters as a book TOC */}}
+{{/* Single collection page (e.g. /collections/go-concurrency/): show chapters as a book TOC.
+
+     Pinned chapters (frontmatter `pinned: true`) are rendered first, in
+     weight order, followed by the remaining chapters in weight order. */}}
 <div class="collection-toc">
-  {{- range .Pages.ByWeight }}
+  {{- $pinned := where .Pages "Params.pinned" true }}
+  {{- $pinned = $pinned.ByWeight }}
+  {{- $rest := where .Pages "Params.pinned" "!=" true }}
+  {{- $rest = $rest.ByWeight }}
+
+  {{- range $pinned }}
+  <div class="collection-chapter collection-chapter--pinned">
+    <a href="{{ .Permalink }}" class="collection-chapter-link">
+      <span class="collection-chapter-number">{{ .Weight }}.</span>
+      <div class="collection-chapter-info">
+        <h3 class="collection-chapter-title">
+          {{- .Title -}}
+          <span class="collection-chapter-pin" title="置顶">置顶</span>
+        </h3>
+        {{- if .Summary }}
+        <p class="collection-chapter-summary">{{ .Summary | plainify | truncate 120 }}</p>
+        {{- end }}
+        <div class="collection-chapter-meta">
+          {{- partial "post_meta.html" . -}}
+        </div>
+      </div>
+    </a>
+  </div>
+  {{- end }}
+
+  {{- range $rest }}
   <div class="collection-chapter">
     <a href="{{ .Permalink }}" class="collection-chapter-link">
       <span class="collection-chapter-number">{{ .Weight }}.</span>

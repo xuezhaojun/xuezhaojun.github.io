@@ -101,6 +101,26 @@
   color: var(--secondary);
 }
 
+/* Pinned chapter marker */
+.collection-chapter--pinned .collection-chapter-link {
+  background-color: var(--code-bg);
+  border-left: 3px solid var(--primary);
+  padding-left: calc(0.5rem - 3px);
+}
+
+.collection-chapter-pin {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 3px;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
 /* Collection badge on single article page */
 .collection-badge {
   margin-bottom: 0.5rem;
